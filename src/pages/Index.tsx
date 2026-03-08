@@ -73,6 +73,84 @@ const Index = () => {
             </div>
           </div>
         </section>
+
+        {/* Services Section */}
+        <section className="px-4 md:px-0 mt-6 mb-6">
+          <div className="mb-8 px-2">
+            <span className="text-accent font-mono text-sm">Услуги</span>
+            <h2 className="text-foreground text-3xl md:text-4xl font-semibold mt-2" style={{ fontFamily: "var(--font-montserrat)" }}>
+              Что мы оформляем
+            </h2>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+            {/* ОСАГО */}
+            <div className="bg-card border border-border rounded-2xl p-6 flex flex-col gap-4 hover:border-accent transition-colors duration-300">
+              <div className="text-3xl">🚗</div>
+              <div>
+                <h3 className="text-foreground font-semibold text-xl mb-2" style={{ fontFamily: "var(--font-montserrat)" }}>ОСАГО</h3>
+                <p className="text-muted-foreground text-sm font-mono leading-relaxed">
+                  Обязательное страхование автогражданской ответственности. Оформим быстро — полис придёт на email.
+                </p>
+              </div>
+              <ul className="flex flex-col gap-2 mt-auto">
+                <li className="flex items-center gap-2 text-sm font-mono text-foreground">
+                  <span className="text-accent">*</span> Онлайн без визита в офис
+                </li>
+                <li className="flex items-center gap-2 text-sm font-mono text-foreground">
+                  <span className="text-accent">*</span> Все страховые компании
+                </li>
+                <li className="flex items-center gap-2 text-sm font-mono text-foreground">
+                  <span className="text-accent">*</span> Лучшая цена на рынке
+                </li>
+              </ul>
+            </div>
+
+            {/* КАСКО */}
+            <div className="bg-card border border-border rounded-2xl p-6 flex flex-col gap-4 hover:border-accent transition-colors duration-300">
+              <div className="text-3xl">🛡️</div>
+              <div>
+                <h3 className="text-foreground font-semibold text-xl mb-2" style={{ fontFamily: "var(--font-montserrat)" }}>КАСКО</h3>
+                <p className="text-muted-foreground text-sm font-mono leading-relaxed">
+                  Полная защита вашего автомобиля от угона, ДТП и ущерба. Подберём оптимальный пакет под ваш бюджет.
+                </p>
+              </div>
+              <ul className="flex flex-col gap-2 mt-auto">
+                <li className="flex items-center gap-2 text-sm font-mono text-foreground">
+                  <span className="text-accent">*</span> Полное и частичное КАСКО
+                </li>
+                <li className="flex items-center gap-2 text-sm font-mono text-foreground">
+                  <span className="text-accent">*</span> Защита от угона и ДТП
+                </li>
+                <li className="flex items-center gap-2 text-sm font-mono text-foreground">
+                  <span className="text-accent">*</span> Индивидуальные условия
+                </li>
+              </ul>
+            </div>
+
+            {/* Почему мы */}
+            <div className="bg-primary/10 border border-accent/30 rounded-2xl p-6 flex flex-col gap-4 hover:border-accent transition-colors duration-300">
+              <div className="text-3xl">⚡</div>
+              <div>
+                <h3 className="text-foreground font-semibold text-xl mb-2" style={{ fontFamily: "var(--font-montserrat)" }}>Почему Клевер</h3>
+                <p className="text-muted-foreground text-sm font-mono leading-relaxed">
+                  Работаем с ведущими страховыми компаниями России. Без очередей, без лишних бумаг.
+                </p>
+              </div>
+              <ul className="flex flex-col gap-2 mt-auto">
+                <li className="flex items-center gap-2 text-sm font-mono text-foreground">
+                  <span className="text-accent">*</span> Оформление за 10 минут
+                </li>
+                <li className="flex items-center gap-2 text-sm font-mono text-foreground">
+                  <span className="text-accent">*</span> Сравниваем 20+ компаний
+                </li>
+                <li className="flex items-center gap-2 text-sm font-mono text-foreground">
+                  <span className="text-accent">*</span> Поддержка после оформления
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
       </div>
       <Footer />
     </div>
