@@ -13,9 +13,9 @@ export default function HeroTextOverlay() {
         АВТО
       </h1>
       <p className="text-foreground font-mono text-sm md:text-base max-w-xs tracking-widest lg:text-base">
-        Ваш личный агент
+        Страховая Компания Клевер
         <br />
-        по автострахованию
+        Ваш личный агент по ОСАГО и КАСКО
       </p>
     </div>
   )

@@ -58,7 +58,7 @@ export default function Footer() {
 
         <div id="contact" className="w-full px-6 py-16 flex flex-col md:flex-row items-center justify-center md:justify-between gap-6 md:gap-0 border-t border-border mt-16">
           <div className="flex flex-col md:flex-row gap-2 text-center md:text-left">
-            <h2 className="text-foreground font-mono text-xl font-bold">Нужен полис?</h2>
+            <h2 className="text-foreground font-mono text-xl font-bold">Страховая Компания Клевер</h2>
             <p className="text-foreground font-mono font-normal text-base">Оформлю быстро и по лучшей цене</p>
           </div>
 
@@ -82,7 +82,7 @@ export default function Footer() {
         </div>
 
         <div className="w-full px-6 py-4 border-t border-border flex md:flex-row items-center justify-between gap-2 flex-row">
-          <p className="text-muted-foreground text-sm font-mono">2026 Страховой агент</p>
+          <p className="text-muted-foreground text-sm font-mono">2026 Страховая Компания Клевер</p>
           <p className="text-muted-foreground text-sm font-mono">poehali.dev</p>
         </div>
       </div>
