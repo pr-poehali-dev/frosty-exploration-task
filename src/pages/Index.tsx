@@ -186,6 +186,56 @@ const Index = () => {
             </div>
           </div>
         </section>
+        {/* Reviews Section */}
+        <section className="px-4 md:px-0 mt-6 mb-6">
+          <div className="mb-8 px-2">
+            <span className="text-accent font-mono text-sm">Отзывы</span>
+            <h2 className="text-foreground text-3xl md:text-4xl font-semibold mt-2" style={{ fontFamily: "var(--font-montserrat)" }}>
+              Что говорят клиенты
+            </h2>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+            <div className="bg-card border border-border rounded-2xl p-6 flex flex-col gap-4 hover:border-accent transition-colors duration-300">
+              <div className="flex gap-1">
+                {[...Array(5)].map((_, i) => <span key={i} className="text-accent text-sm">★</span>)}
+              </div>
+              <p className="text-muted-foreground font-mono text-sm leading-relaxed flex-1">
+                "Оформил ОСАГО за 10 минут, полис пришёл на почту моментально. Цена оказалась ниже, чем я находил сам. Очень доволен!"
+              </p>
+              <div className="border-t border-border pt-4">
+                <div className="text-foreground font-semibold text-sm" style={{ fontFamily: "var(--font-montserrat)" }}>Александр М.</div>
+                <div className="text-muted-foreground font-mono text-xs">ОСАГО · Москва</div>
+              </div>
+            </div>
+
+            <div className="bg-card border border-border rounded-2xl p-6 flex flex-col gap-4 hover:border-accent transition-colors duration-300">
+              <div className="flex gap-1">
+                {[...Array(5)].map((_, i) => <span key={i} className="text-accent text-sm">★</span>)}
+              </div>
+              <p className="text-muted-foreground font-mono text-sm leading-relaxed flex-1">
+                "Помогли подобрать КАСКО с хорошим покрытием и в рамках бюджета. Менеджер объяснил все нюансы, не навязывал лишнего. Рекомендую!"
+              </p>
+              <div className="border-t border-border pt-4">
+                <div className="text-foreground font-semibold text-sm" style={{ fontFamily: "var(--font-montserrat)" }}>Ольга В.</div>
+                <div className="text-muted-foreground font-mono text-xs">КАСКО · Санкт-Петербург</div>
+              </div>
+            </div>
+
+            <div className="bg-card border border-border rounded-2xl p-6 flex flex-col gap-4 hover:border-accent transition-colors duration-300">
+              <div className="flex gap-1">
+                {[...Array(5)].map((_, i) => <span key={i} className="text-accent text-sm">★</span>)}
+              </div>
+              <p className="text-muted-foreground font-mono text-sm leading-relaxed flex-1">
+                "Уже второй год страхуюсь через Клевер. Всегда лучшие цены и быстрое оформление. Больше никуда не хожу!"
+              </p>
+              <div className="border-t border-border pt-4">
+                <div className="text-foreground font-semibold text-sm" style={{ fontFamily: "var(--font-montserrat)" }}>Дмитрий К.</div>
+                <div className="text-muted-foreground font-mono text-xs">ОСАГО + КАСКО · Екатеринбург</div>
+              </div>
+            </div>
+          </div>
+        </section>
       </div>
       <Footer />
     </div>
