@@ -74,6 +74,41 @@ const Index = () => {
           </div>
         </section>
 
+        {/* About Section */}
+        <section className="px-4 md:px-0 mt-6 mb-2">
+          <div className="bg-card border border-border rounded-2xl p-8 md:p-12 relative overflow-hidden">
+            <div className="absolute top-0 right-0 w-64 h-64 rounded-full opacity-5" style={{ background: "radial-gradient(circle, hsl(var(--accent)), transparent)", transform: "translate(30%, -30%)" }} />
+            <div className="relative z-10 flex flex-col md:flex-row md:items-center gap-8">
+              <div className="flex-1">
+                <span className="text-accent font-mono text-sm">О компании</span>
+                <h2 className="text-foreground text-2xl md:text-3xl font-semibold mt-2 mb-4" style={{ fontFamily: "var(--font-montserrat)" }}>
+                  Надёжность, проверенная временем
+                </h2>
+                <p className="text-muted-foreground font-mono text-sm leading-relaxed mb-4">
+                  Мы — надёжный партнёр в сфере страховых продуктов на территории Российской Федерации. Более <span className="text-accent font-semibold">456 689</span> довольных клиентов уже выбрали нас — и это число продолжает расти!
+                </p>
+                <p className="text-muted-foreground font-mono text-sm leading-relaxed">
+                  Возникли вопросы? Наши менеджеры готовы предоставить подробную консультацию и помочь найти оптимальное решение для вашей ситуации.
+                </p>
+              </div>
+              <div className="flex flex-col items-start md:items-center gap-5 md:min-w-[220px]">
+                <div className="text-center">
+                  <div className="text-accent text-4xl font-bold" style={{ fontFamily: "var(--font-montserrat)" }}>456 689</div>
+                  <div className="text-muted-foreground font-mono text-xs mt-1">довольных клиентов</div>
+                </div>
+                <a
+                  href="https://t.me/Klever_Support_Retail"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 bg-accent text-accent-foreground font-semibold px-6 py-3 rounded-xl font-mono text-sm hover:opacity-90 transition-opacity"
+                >
+                  Написать в Telegram
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* Services Section */}
         <section className="px-4 md:px-0 mt-6 mb-6">
           <div className="mb-8 px-2">
